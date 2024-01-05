@@ -1,0 +1,53 @@
+body{ 
+    background-color: rgb(99, 226, 99); 
+    font-family: Verdana; 
+} 
+
+h1 {
+    text-align: center;
+    margin-top: 16vh;
+}
+
+.cobtainer{ 
+    text-align: center; 
+    background-color: rgb(102, 155, 22); 
+    width: 800px;
+    height: 100px; 
+    margin: 10vh;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 50px; 
+
+} 
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 200px; 
+    padding: 10px; 
+    margin: 5px 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+input:focus {
+    outline: none; 
+    border-color: #4CAF50; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); 
+}
+
+#btn {
+    background-color: #4CAF50; 
+    color: white; 
+    margin: 15px;
+    padding: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none; 
+    border-radius: 7px; 
+    cursor: pointer; 
+    
+}
